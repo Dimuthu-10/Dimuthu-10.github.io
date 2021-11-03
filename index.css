@@ -8,6 +8,8 @@ body{
 }
 
 .vertical_boxes{
+    width: fit-content;
+    height: fit-content;
     display: grid;
     height: 100vh;
     max-height: 100%;
@@ -547,5 +549,14 @@ progress{
     .vertical_boxes{
         height: 105.5vh;
         width : 104.8%;
+    }
+} */
+
+/* @media  screen and (max-width:866px) {
+    .image-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        margin: 10px;
     }
 } */
