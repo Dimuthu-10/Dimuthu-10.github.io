@@ -9,9 +9,8 @@ body{
 
 .vertical_boxes{
     width: fit-content;
-    height: fit-content;
+    height: 145vh !important;
     display: grid;
-    height: 100vh;
     max-height: 100%;
     background-image: url(imgs/home_Image.jpg);
     background-color: rgba(0, 0, 0, 0.2) !important;
@@ -19,8 +18,11 @@ body{
     background-size:cover;
     align-items: stretch;
     background-blend-mode: overlay;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    z-index: 0;
 }
+
+
 
 .bg-dark{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), #1a1a1a 50%); */
@@ -128,7 +130,7 @@ a.navbar-brand{
     display: flex;
     justify-content: center;
     background-color: black;
-    opacity: 0.95;
+    /* opacity: 0.95; */
 }
 
 .btn a{
